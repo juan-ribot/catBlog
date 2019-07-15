@@ -1,0 +1,59 @@
+/* ----------------------------------- */
+/* ESTILOS GENERALES (Diseño Elástico) */
+/* ----------------------------------- */
+
+
+
+
+/* ---------- MEDIA QUERIS ---------- */
+/* -------------------- */
+/* SMARTPHONE (Vertical)*/
+/* -------------------- */
+@media only screen
+and (min-device-width:320px) and (max-device-width: 766px)
+and (orientation: portrait)
+{
+
+
+}
+
+@media only screen
+and (min-device-width:320px)
+and (orientation: portrait)
+{
+
+
+}
+/* -------------------- */
+/* TABLET = iPad */
+/* -------------------- */
+
+/* ---------- VERTICAL ---------- */
+@media only screen
+and (min-device-width:768px)
+and (orientation: portrait)
+{
+
+
+
+}
+/* ---------- HORIZONTAL ---------- */
+@media only screen
+and (min-device-width:1024px)
+and (orientation: landscape)
+{
+
+
+
+}
+/* -------------------- */
+/* ESCRITORIO */
+/* -------------------- */
+@media only screen
+and (min-width:1366px)
+{
+
+
+
+}
+
