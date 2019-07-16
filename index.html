@@ -39,7 +39,8 @@
                 <div class="barraNav">
                     <!-- logotipo -->
                     <div class="barraNav__logo">
-                        <img class="barraNav__logo__isotipo" src="logo.svg" alt="logo marca" >
+                        <img class="barraNav__logo__isotipo" src="/_assets/img/svg/logo.svg" alt="logo marca" >
+
                         <span class="barraNav__logo__logotipo"></span>
                     </div>
             
@@ -61,24 +62,31 @@
                 </div>
             </header>
             
-            <section class="imagen">
-               <a href="#"></a>
-            </section>
+           
             
-            <br>
-            <p></p>
-            <section class="parrafo"> 
-                <p>
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                </p>
-                <p>
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                </p>
-                <p>
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                </p>
-            
+            <section class="banner">
+                <picture>
+                    <!-- Por defecto, baja resolución de imagen para Smartphone -->
+                    <source srcset="_assets/img/smartphone/banner.jpg 1x,
+                                              _assets/img/smartphone/banner@2x.jpg 2x,
+                                              _assets/img/smartphone/banner@3x.jpg 3x"
+                                 media="(min-width:320px) and (max-width:450px)">
+                    
+                    
+                    <!-- Alta resolución para Escritorio -->
+                    <source srcset="_assets/img/desktop/banner.jpg 1x,
+                                    _assets/img/desktop/banner@2x.jpg 2x"
+                                 media="(min-width:1366px)">
+                    
+                    
+                    <!-- Imagen de respaldo en caso que no se admita el elemento picture -->
+                    <img src="_assets/img/smartphone/banner.jpg" alt="Explicación de la imagen">
+                    
+                    </picture>
             </section>
+           
+            
+          
             
             
             
